@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+form.login-form {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 8px 8px rgba(143, 221, 240, 0.913);
+    text-align: center;
+    width: 300px;
+}
+
+form.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form.login-form input[type="text"],
+form.login-form input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form.login-form input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 16px;
+}
+form.login-form input[type="submit"]:hover {
+    background-color: rgb(93, 170, 243);
+}
+
+.social-icon {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    vertical-align: middle; /* Align with text */
+    margin-left: 5px; /* Spacing from text */
+}
+
+.whatsapp-icon {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    vertical-align: middle; /* Align with text */
+    margin-left: 5px; /* Spacing from text */
+}

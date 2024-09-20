@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Feedback</title>
+    <link rel="stylesheet" href="college.css">
+</head>
+<body >
+    <h1 >College Feedback Form</h1>
+    
+    <div class="marquee" >
+        <marquee behavior="alternate" direction="left" scrollamount="10">
+            Your feedback is crucial for improving the quality of our college. Please share your experience and help us serve you better!
+        </marquee>
+    </div>
+
+    <div class="form=container" >    
+        <form action="success.html" method="post">
+            <table>
+                <tr>
+                    <td><label for="name"><b>NAME:</b></label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label  for="department"><b>DEPARTMENT NAME:</b></label></td>
+                    <td><input type="text" id="department" name="department" required></td>
+                </tr>
+                <tr>
+                    <td><label for="rating"><b>RATE THE COLLEGE(1-5):</b></label></td>
+                    <td><select id="rating" name="rating" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comments"><b>COMMENTS:</b></label>
+                    </td>
+                    <td><textarea id="comments" name="comments" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button  type="submit" class="submit-btn">Submit Feedback</button>
+                    </td>
+                </tr>
+            </table>
+            <a href="home.html" >Back to Feedback Forms</a>
+    
+        </form>
+    </div><br><br>
+    <footer>
+        <p>&copy; 2024 College Feedback System. All rights reserved.</p>
+        <p>Contact us: 
+            <a href="https://wa.me/your_whatsapp_number" target="_blank">WhatsApp
+                <img src="whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon">
+            </a> 
+            <a href="https://www.linkedin.com/in/your_linkedin_profile" target="_blank">LinkedIn
+                <img src="linked-icon.jpg" alt="LinkedIn" class="social-icon">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
